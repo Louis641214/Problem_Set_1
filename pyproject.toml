@@ -1,0 +1,13 @@
+[project]
+name = "problem_set_1"
+version = "1.0.0"
+description = "Shortest path algorithms using Dijkstra and Bellman-Ford"
+authors = [{ name = "Louis641214" }]
+dependencies = []
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["src"]

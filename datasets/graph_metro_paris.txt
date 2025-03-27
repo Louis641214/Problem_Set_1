@@ -1,5 +1,5 @@
 376 932
-noms sommets
+vertices name
 0000 Abbesses
 0001 Alexandre Dumas
 0002 Alma Marceau
@@ -376,7 +376,7 @@ noms sommets
 0373 Église d'Auteuil
 0374 Église de Pantin
 0375 Étienne Marcel
-coord sommets
+vertices coordinates
 0000 308 536
 0001 472 386
 0002 193 404
