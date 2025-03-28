@@ -1,8 +1,8 @@
 from src.basic_class import Vertex, Graph
-from typing import Dict
+from typing import Dict, Tuple
 from src.dijkstra_bellman_ford import dijkstra, bellman_ford, shortest_path
 
-def load_graph(filepath: str) -> Graph[str]:
+def load_graph(filepath: str) -> Tuple[Graph[str], Dict[str, Vertex[str]]]:
     
     graph = Graph[str]()
     vertices: Dict[str, Vertex[str]] = {}

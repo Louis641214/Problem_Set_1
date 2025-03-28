@@ -15,7 +15,7 @@ This allows you to make changes in the source code without reinstalling the pack
 To run the example scenarios using both algorithms:
 
 ```bash
-python tests/test.py
+python tests/test_shortest_path.py
 ```
 
 You will see route examples between different stations of Paris such as:
